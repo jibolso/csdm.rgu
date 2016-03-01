@@ -1,0 +1,93 @@
+body{
+
+    width: 960px;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+header{
+    font-family: 'Roboto Slab', serif;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    min-height: 100%;
+}
+
+* a, li{
+    text-decoration: none;
+    list-style: none;
+    float: left;
+}
+
+#logo img{
+    width: 30%;
+}
+
+#banner img {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+nav ul li {
+    width: 12.5%;
+}
+
+
+
+section {
+    float: left;
+    clear: right;
+    width: 66%;
+    height: auto;
+}
+
+main section img{
+    width: 240px;
+    float: left;
+    margin-right: 5px;
+}
+
+aside{
+    width: 33%;
+    display: inline;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    top: -25px;
+    right: -10px;
+    clear: both;
+
+}
+
+aside #news{
+    width: 33%;
+    background-color: #DBC9DF;
+    display: inline-block;
+}
+
+aside #events{
+    width: 33%;
+    background-color: #782A7E;
+    display: inline-block;
+}
+
+aside p, h2{
+    padding:10px 10px 10px 10px;
+}
+
+
+
+footer {
+    width: 960px;
+    background-color: #363636;
+    color: white;
+    text-align: center;
+    font-family: inherit;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
